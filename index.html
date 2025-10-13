@@ -168,8 +168,12 @@
         <div class="rounded-3xl border p-6">
           <div class="text-gray-500">Ön Görüşme</div>
           <p class="mt-1">Kısa bir form bırakın; size dönüş yapayım.</p>
-          <form action="#" method="POST" class="mt-4 flex flex-col gap-3" onsubmit="alert('Form örnektir. Formspree URL’si ekleyince çalışır.'); return false;">
-            <input name="name" placeholder="Ad Soyad" class="border p-2 rounded" required />
+<form action="https://formspree.io/f/xovkplze" method="POST" class="mt-4 flex flex-col gap-3">
+  <input name="name" placeholder="Ad Soyad" class="border p-2 rounded" required />
+  <input type="email" name="email" placeholder="E-posta" class="border p-2 rounded" required />
+  <textarea name="message" placeholder="Kısaca mesajınız" class="border p-2 rounded h-28"></textarea>
+  <button class="rounded-xl bg-black text-white px-4 py-2">Gönder</button>
+</form>            <input name="name" placeholder="Ad Soyad" class="border p-2 rounded" required />
             <input type="email" name="email" placeholder="E‑posta" class="border p-2 rounded" required />
             <textarea name="message" placeholder="Kısaca mesajınız" class="border p-2 rounded h-28"></textarea>
             <button class="rounded-xl bg-black text-white px-4 py-2">Gönder</button>
