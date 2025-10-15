@@ -1,23 +1,17 @@
-# Sinan Çetin Parlak — Stratejik Satış, Global E‑Ticaret, Mindfulness
 
-Tek dosyalık (Tailwind CDN) kişisel danışmanlık sitesi. İçerik Türkçe, başlıklar ve bölümler CV ile uyumlu.
+# Sinan Çetin Parlak — SEO Hazır Site
 
-## Hızlı Kurulum (GitHub Pages)
-1. Bu klasörü yeni bir GitHub reposuna yükleyin (örn. `sinan-site`).
-2. **Settings → Pages** menüsünden:
-   - Source: **Deploy from a branch**
-   - Branch: **main /root** (veya **master /root**) → **Save**
-3. Site adresiniz: `https://<kullanıcı-adınız>.github.io/<repo-adı>/`
+Bu repo köküne (root) yükle → GitHub Pages (Settings → Pages → Deploy from a branch → main / root) aç → bitti.
 
-## Dosyalar
-- `index.html` — Tüm sayfa (Tailwind CDN ile)
-- `.nojekyll` — GitHub Pages Jekyll işlemeyi kapatır
+## İçerik
+- `index.html` — SEO etiketleri entegre (canonical/og: https://sinancetin.github.io/sinancetin/)
+- `robots.txt` — Arama motorları için izin + site haritası
+- `sitemap.xml` — Site haritası
+- `og-image.png` — Sosyal paylaşım görseli (1200x630)
+- `favicon.ico`, `apple-touch-icon.png` — Simge dosyaları
+- `.nojekyll` — GitHub Pages için Jekyll kapatma
 
-## Özelleştirme
-- İletişim: `info@sinancetinparlak.com`, `+90 (535) 291 82 95`, WhatsApp linki.
-- Formlar: Formspree uç noktası `https://formspree.io/f/xovkplze`
-- Başlıklar: Global e‑ticaret (Amazon, Etsy, Shopify), Emlak & Mülk Yönetimi (Property Management).
+## Custom Domain kullanıyorsan
+- `CNAME` dosyan (alan adın) root'ta dursun
+- `index.html`, `robots.txt`, `sitemap.xml` içindeki URL'yi kendi alan adınla değiştir
 
-## Notlar
-- Tasarım Tailwind CDN ile çalışır; ek build gerektirmez.
-- İstersen OG görseli ve JSON‑LD şema ekleyebilirsin.
